@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
   <meta charset="utf-8">
@@ -47,7 +47,7 @@
 
       </ul>
     </nav>
-    <section>
+    <div>
       <img src="images/anshul_google.png" alt="Google" class="google_logo">
 
       <div>
@@ -63,29 +63,30 @@
 
       <div class="btns_centered">
         <button id="btn_search" onclick="myNameSpace.searchSite()">Search Anshul</button>
-        <a href="search_results.html" target="blank"><button id="btn_lucky">I'm Feeling Lucky</button></a>
+        <button id="btn_lucky" onclick=myNameSpace.feelingLucky()>I'm Feeling Lucky</button>
       </div>
+    </div>
   </div>
 
-  </section>
-  </div>
+ 
   <footer class="navbar navbar-expand bottom_footer">
     <ul class="navbar-nav  align-items-end mr-auto">
 
     </ul>
     <ul class="navbar-nav align-items-end">
-      
+
       <li class="nav-item dropup">
         <a class="nav-link bottom_links" data-toggle="dropdown" id="settings_link" href="#">Settings</a>
         <ul class="dropdown-menu dropdown-menu-right">
-          <a class="dropdown-item" href="#">Regular View</a>
-      </li>
-      
-    </li>
+          <li>
+            <a class="dropdown-item" href="#">Regular View</a>
+          </li>
+        </ul>
     </ul>
   </footer>
+  <script src="./js/myJs.js"></script>
 </body>
 <!-- <script src="./js/index-scripts.js"></script> -->
-<script src="./js/myJs.js"></script>
+
 
 </html>
