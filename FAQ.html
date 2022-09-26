@@ -9,16 +9,28 @@
   <link rel="stylesheet" href="./css/FAQ.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  
+  <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
 </head>
 
 <body>
 
     <header class="header" data-component="Header">
         <div class="header__container">
-            <a class="link header__logo " href="#fa-border">
+            
+            <div class="link header__logo ">
                 <!-- <img decoding="async" loading="lazy" src="" width="30px" height="30px" alt="" role="presentation" /> -->
+                <a href="./index.html">
+                <button class="mdc-button mdc-button--icon-leading">
+                    <span class="mdc-button__ripple"></span>
+                    <i class="material-icons mdc-button__icon" aria-hidden="true"
+                      >arrow_back</i>
+                  </button>
+                  </a>
                 <span class="mobile-before-hero-only"> FAQ</span>
-            </a>
+            </div>
 
             <div class="header__aside">
                 <div class="header__aside__buttons">
@@ -86,8 +98,8 @@
                             </div>
                         </summary>
                         <div class="faq__grid__faqs__faq__body ">
-                            This site uses Programmable Search Engine by Google.The results are based on whether the goolge search engine crawler has indexed the pages or not.
-                            More info can be found out <a href="https://support.google.com/programmable-search/answer/6001359?hl=en#zippy=%2Cstale-content%2Ctoo-many-or-too-few-results">here</a> 
+                            This site uses Programmable Search Engine by Google.The results are based on whether the goolge search engine crawler has indexed the pages or not. It usually takes about a week for the crawler to index the pages, once they have been added. This site is in its infancy, any inconvienience caused is regretted. A more standard version of the information is available <a>here.</a>
+                            More info can be found out <a href="https://support.google.com/programmable-search/answer/6001359?hl=en#zippy=%2Cstale-content%2Ctoo-many-or-too-few-results">here.</a> 
                             
                         </div>
 

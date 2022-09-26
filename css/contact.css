@@ -1,0 +1,40 @@
+.contact-blocks {
+  font-size: 18px;
+}
+
+.contact-blocks__description {
+  max-width: 600px;
+  font-size: 18px;
+}
+
+
+
+[dir] .contact-block__title {
+  margin-bottom: 16px;
+}
+
+.contact-block__description {
+  color: #5c5c5c;
+}
+
+
+
+.contact-block__icon {
+  width: 133px;
+  height: 133px;
+}
+
+
+.contact-block__link {
+  position: relative;
+  font-family: "Sharp Sans Display No1", sans-serif;
+  font-weight: 700;
+  color: #000;
+}
+
+.contact-block__link:hover,
+.contact-block__link:focus {
+  color: #000;
+}
+
+
