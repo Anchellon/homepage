@@ -1,4 +1,5 @@
-export const myNameSpace = (function () {
+// eslint-disable-next-line no-unused-vars
+let myNameSpace = (function () {
   function searchSite() {
     let searchButton = document.getElementsByClassName(
       "gsc-search-button gsc-search-button-v2"
@@ -13,5 +14,6 @@ export const myNameSpace = (function () {
   }
   return {
     searchSite: searchSite,
+    feelingLucky: feelingLucky,
   };
 })();
