@@ -34,4 +34,10 @@ Heavily influenced by google.com and Material Design
 
 ## Credits
 
+    Author: Anshul Mathew
+
 _Kinda obvious, no? ;)_
+
+## Gallery
+
+!Demo(https://github.com/Anchellon/homepage/blob/main/images/demo.jpg?raw=true)
