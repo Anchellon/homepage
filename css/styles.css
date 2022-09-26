@@ -1,4 +1,4 @@
-#myImg{
+#myImg {
   float: right;
   width: 35%;
   min-width: 380px;
@@ -7,18 +7,17 @@
   /* display: inline; */
   margin-left: 2%;
   margin-top: 2%;
-} 
+}
 
 @media (min-width: 320px) and (max-width: 900px) {
-    #myImg{
-        width:100%;
-        float:none;
-        display:flex;
-        margin:1%;
-        
-    }
-    }
-.margin-vyom{
+  #myImg {
+    width: 100%;
+    float: none;
+    display: flex;
+    margin: 1%;
+  }
+}
+.margin-vyom {
   margin-top: 10%;
   margin-bottom: 20%;
 }

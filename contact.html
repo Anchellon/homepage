@@ -1,126 +1,174 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="author" content="Anshul Mathew" />
+    <meta name="description" content="Contact information page" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link rel="stylesheet" href="./css/cover.css" />
+    <link rel="stylesheet" href="./css/contact.css" />
 
-<head>
-     <!-- Required meta tags -->
-     <meta charset="utf-8">
-     <meta name="author" content="Anshul Mathew">
-     <meta name="description" content="Contact information page">
-     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-     <link rel="stylesheet" href="./css/cover.css">
-     <link rel="stylesheet" href="./css/contact.css">
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
 
-     <!-- Bootstrap CSS -->
-     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
-          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-     <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css"
-          rel="stylesheet">
-     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+    <title>Hello, world!</title>
+  </head>
 
-     <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
-     <title>Hello, world!</title>
-</head>
+  <body>
+    <header class="mdc-top-app-bar mdc-top-app-bar--short">
+      <div class="mdc-top-app-bar__row">
+        <div
+          class="mdc-top-app-bar__section mdc-top-app-bar__section--align-start"
+        >
+          <button
+            class="mdc-icon-button material-icons"
+            onclick="document.location='./index.html'"
+            style="color: white"
+          >
+            <span class="mdc-icon-button__ripple"></span>
+            arrow_back
+          </button>
 
-<body>
+          <span class="mdc-top-app-bar__title">Contact</span>
+        </div>
+      </div>
+    </header>
+    <main class="mdc-top-app-bar--short-fixed-adjust">
+      <div class="jumbotron m-0 justify-content-center row">
+        <h1 class="display-4">Everything begins with a Hello!</h1>
+        <p class="lead">
+          Reach out to me via any one of the provided methods. I will try my
+          best to get back to you at the earliest.
+        </p>
 
-     <header class="mdc-top-app-bar mdc-top-app-bar--short">
-          <div class="mdc-top-app-bar__row">
-               <div class="mdc-top-app-bar__section mdc-top-app-bar__section--align-start">
-                    
-                         <button class="mdc-icon-button material-icons" onclick="document.location='./index.html'" style="color:white;">
-                              <span class="mdc-icon-button__ripple"></span>
-                              arrow_back
-                         </button>
-                    
-                    <span class="mdc-top-app-bar__title">Contact</span>
-                    </div>
+        <div class="d-flex justify-content-center">
+          <div class="row">
+            <div class="col col--xs-6 col--sm-3 m-1 contact-block">
+              <img
+                class="contact-block__icon"
+                src="//theme.zdassets.com/theme_assets/139839/f6b911ff868b06a21e9a62d476487d58d4360d73.png"
+                alt="Email"
+              />
+              <p class="h3 contact-block__title">Email</p>
+              <p class="contact-block__description">
+                Replies within 2 business days
+              </p>
+              <div class="contact-block__link">
+                Drop me A Line <br />
+                anshulmathew@gmail.com
+              </div>
+            </div>
 
+            <div class="col col--xs-6 col--sm-3 m-1 contact-block">
+              <img
+                class="contact-block__icon"
+                src="//theme.zdassets.com/theme_assets/139839/4db9c8f7eaf3ee6a0b247e37e474b0c4bf501718.png"
+                alt="Text"
+              />
+              <p class="h3 contact-block__title">Text</p>
+              <p class="contact-block__description">
+                Responds in under an hour<br /><br />
+              </p>
+              <div class="contact-block__link">
+                Text me on <br />+1 669-336-2708
+              </div>
+            </div>
+
+            <div class="col col--xs-6 col--sm-3 m-1 contact-block">
+              <img
+                class="contact-block__icon"
+                src="//theme.zdassets.com/theme_assets/139839/3b7014cbf1b89661fb235bc8b2d2069e9a2670ba.png"
+                alt="Social Media"
+              />
+              <p class="h3 contact-block__title">Social Media</p>
+              <p class="contact-block__description">
+                Response time less than 24 hours.
+              </p>
+              <div class="contact-block__link">Find me on</div>
+              <br />
+              twitter:
+              <a
+                href="https://twitter.com/Anshul_Mathew"
+                target="_blank"
+                rel="noopener noreferrer"
+                >@Anshul_Mathew</a
+              >
+            </div>
+            <div class="col col--xs-6 col--sm-3 m-1 contact-block">
+              <img
+                class="contact-block__icon"
+                src="./images/GitHub-Mark-120px-plus.png"
+                alt="Social Media"
+              />
+              <p class="h3 contact-block__title">Github Profile</p>
+              <p class="contact-block__description">
+                Checkout my github profile<br /><br />
+              </p>
+              <a
+                class="contact-block__link"
+                href="https://github.com/Anchellon"
+                target="_blank"
+                rel="noopener noreferrer"
+                >https://github.com/Anchellon</a
+              >
+            </div>
+            <div class="col col--xs-6 col--sm-3 m-1 contact-block">
+              <img
+                class="contact-block__icon"
+                src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png"
+                alt="Linkedin img"
+              />
+              <p class="h3 contact-block__title">Linkedin Profile</p>
+              <p class="contact-block__description">
+                Checkout my Linkedin profile
+              </p>
+              <a
+                class="contact-block__link"
+                href="https://www.linkedin.com/in/anshul-mathew-62148a146/"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Click here to connect!</a
+              >
+            </div>
           </div>
-     </header>
-     <main class="mdc-top-app-bar--short-fixed-adjust">
+        </div>
+      </div>
+    </main>
 
-          <div class="jumbotron m-0 justify-content-center row">
-               <h1 class="display-4">Everything begins with a Hello!</h1>
-               <p class="lead">Reach out to me via any one of the provided methods. I will try my best to get back to
-                    you at the earliest.</p>
-
-
-
-
-               <div class="d-flex justify-content-center">
-
-                    <div class="row ">
-                         <div class="col col--xs-6 col--sm-3 m-1 contact-block">
-                              <img class="contact-block__icon"
-                                   src="//theme.zdassets.com/theme_assets/139839/f6b911ff868b06a21e9a62d476487d58d4360d73.png"
-                                   alt="Email">
-                              <p class="h3 contact-block__title">Email</p>
-                              <p class="contact-block__description">Replies within 2 business days</p>
-                              <div class="contact-block__link">Drop me A Line <br>
-                                   anshulmathew@gmail.com </div>
-                         </div>
-
-                         <div class="col col--xs-6 col--sm-3 m-1 contact-block">
-                              <img class="contact-block__icon"
-                                   src="//theme.zdassets.com/theme_assets/139839/4db9c8f7eaf3ee6a0b247e37e474b0c4bf501718.png"
-                                   alt="Text">
-                              <p class="h3 contact-block__title">Text</p>
-                              <p class="contact-block__description">Responds in under an hour<br><br></p>
-                              <div class="contact-block__link">Text me on <br>+1 669-336-2708</div>
-                         </div>
-
-
-                         <div class="col col--xs-6 col--sm-3 m-1 contact-block">
-                              <img class="contact-block__icon"
-                                   src="//theme.zdassets.com/theme_assets/139839/3b7014cbf1b89661fb235bc8b2d2069e9a2670ba.png"
-                                   alt="Social Media">
-                              <p class="h3 contact-block__title">Social Media</p>
-                              <p class="contact-block__description">Response time less than 24 hours.</p>
-                              <div class="contact-block__link">Find me on</div>
-                              <br> twitter: <a href="https://twitter.com/Anshul_Mathew" target="_blank" rel="noopener noreferrer">@Anshul_Mathew</a>
-                         </div>
-                         <div class="col col--xs-6 col--sm-3 m-1 contact-block">
-                              <img class="contact-block__icon" src="./images/GitHub-Mark-120px-plus.png"
-                                   alt="Social Media">
-                              <p class="h3 contact-block__title">Github Profile</p>
-                              <p class="contact-block__description">Checkout my github profile<br><br></p>
-                              <a class="contact-block__link"
-                                   href="https://github.com/Anchellon" target="_blank" rel="noopener noreferrer">https://github.com/Anchellon</a>
-                         </div>
-                         <div class="col col--xs-6 col--sm-3 m-1 contact-block">
-                              <img class="contact-block__icon"
-                                   src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png"
-                                   alt="Linkedin img">
-                              <p class="h3 contact-block__title">Linkedin Profile</p>
-                              <p class="contact-block__description">Checkout my Linkedin profile</p>
-                              <a class="contact-block__link"
-                                   href="https://www.linkedin.com/in/anshul-mathew-62148a146/" target="_blank" rel="noopener noreferrer">Click here to
-                                   connect!</a>
-                         </div>
-                    </div>
-               </div>
-          </div>
-
-
-
-
-
-
-
-     </main>
-
-
-     <!-- Optional JavaScript -->
-     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-          integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-          crossorigin="anonymous"></script>
-     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
-          integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-          crossorigin="anonymous"></script>
-     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
-          integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-          crossorigin="anonymous"></script>
-</body>
-
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

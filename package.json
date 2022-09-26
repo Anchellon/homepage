@@ -1,0 +1,29 @@
+{
+  "name": "homepage",
+  "version": "1.0.0",
+  "description": "Anshul Mathew's Homepage",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anchellon/homepage.git"
+  },
+  "keywords": [
+    "Homepage"
+  ],
+  "author": "Anshul Mathew",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Anchellon/homepage/issues"
+  },
+  "homepage": "https://github.com/Anchellon/homepage#readme",
+  "devDependencies": {
+    "eslint": "^8.24.0"
+  },
+  "dependencies": {
+    "prettier": "^2.7.1"
+  }
+}
