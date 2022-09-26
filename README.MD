@@ -40,4 +40,4 @@ _Kinda obvious, no? ;)_
 
 ## Gallery
 
-![Demo](images/demo.jpg?raw=true)
+![Demo](images/demo.png?raw=true)
