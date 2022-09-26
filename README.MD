@@ -40,4 +40,4 @@ _Kinda obvious, no? ;)_
 
 ## Gallery
 
-!Demo(https://github.com/Anchellon/homepage/blob/main/images/demo.jpg?raw=true)
+!Demo(/images/demo.jpg?raw=true)
